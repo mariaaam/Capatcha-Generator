@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- -------------------------fontawasom-------------- -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- ---------------------bootstrap--------- -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ---------------css style---------------- -->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <video playsinline autoplay muted loop  id="bgvid">
+        
+        <source src="./img/1118710_microscopic_macro_microscope_3840x2160.mp4" type="video/mp4">
+      </video>
+
+    <div class="container d-flex justify-content-center align-items-center bg-light  mt-5 rounded-3 parent " id="parent">
+        
+
+        <div class=" d-flex flex-column justify-content-center align-items-center w-75  " >
+              <h2 class="pt-3">CAPTCHA GENERATOR</h2>
+              <div class="d-flex m-3 justify-content-between w-75 position-relative">
+                <img src="https://30daysofjs.netlify.app/97%20-%20captcha%20generator/assets/bg6.png" alt="background"
+                 class="h-100 w-100 rounded ">
+                <span id="capText">
+                  </span>
+                <button  class="bg-danger ms-2 text-light rounded-5  " id="Try"> 
+                    
+                    <i class="fa-solid fa-rotate-right"></i>
+                    
+                      
+                      </button>
+                     
+              </div>
+              <form action="" class="mb-2 position-relative w-100 mx-auto  rounded-5">
+            <input placeholder="Enter Capatcha...." class="w-100 rounded-3 border-danger " id="input" >
+            <button class="btn btn-danger rounded-4 btnCheck" id="check" type="button">Check</button>
+        </form>
+        </div>
+
+       
+
+
+    </div>
+
+    <img src="./img/istockphoto-641482148-1024x1024.jpg " class="img rounded-3 mt-5 d-none " id ="img">
+    <script src="js/index.js"></script>
+</body>
+</html>

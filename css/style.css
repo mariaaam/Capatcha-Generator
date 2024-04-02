@@ -1,0 +1,44 @@
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+
+  .parent , .img{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+  
+  }
+span{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 47%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  .btnCheck{
+    position: absolute;
+    right:9px;
+    top: 25px;
+  }
+input{
+    height: 50px;
+    margin-block: 20px;
+
+}
+h2{
+    color: brown;
+    font-weight: bolder;
+    margin-top: 10px;
+}
